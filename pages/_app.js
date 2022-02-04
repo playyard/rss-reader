@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <nav className="p-6 flex justify-between items-center">
         <Link href="/">
-          <a class="underline decoration-pink-500">Home</a>
+          <a class="no-underline hover:underline decoration-pink-500">Home</a>
         </Link>
       </nav>
       <Component {...pageProps} />
