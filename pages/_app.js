@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <nav className="p-6 flex justify-between items-center">
         <Link href="/">
-          <a className="font-bold">Home</a>
+          <a class=underline decoration-pink-500>Home</a>
         </Link>
       </nav>
       <Component {...pageProps} />
