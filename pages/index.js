@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="px-0 py-12 max-w-xl mx-auto">
-      <div className="mx-auto px-4">
+      <div className="mx-auto pr-0">
         <h1 className="border-pink-400 border-b-4 font-bold text-5xl mb-5">WhatsApps?</h1>
       </div>
       <div className="grid grid-cols-2 gap-4">
