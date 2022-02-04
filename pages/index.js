@@ -8,7 +8,7 @@ export default function Home() {
       <div className="grid grid-cols-2 gap-4">
         {FEEDS.map((feed) => (
           <Link key={feed.slug} href={`/feeds/${feed.slug}`}>
-            <a className="p-4 border border-gray-300 hover:drop-shadow-xl rounded-lg">
+            <a className="p-4 border border-gray-300 hover:border-pink-500 rounded-lg">
               {feed.title}
             </a>
           </Link>
