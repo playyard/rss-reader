@@ -8,15 +8,6 @@ function MyApp({ Component, pageProps }) {
         <Link href="/">
           <a className="font-bold"> </a>
         </Link>
-        <div className="flex space-x-4">
-          <a
-            href="https://github.com/andreaskeller/rss-reader"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
-        </div>
       </nav>
       <Component {...pageProps} />
     </div>
