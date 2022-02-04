@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         </Link>
         <div className="flex space-x-4">
           <a
-            href="https://github.com/playyard/rss-reader"
+            href="https://github.com/andreaskeller/rss-reader"
             target="_blank"
             rel="noopener noreferrer"
           >
