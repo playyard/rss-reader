@@ -9,7 +9,7 @@ export default function Feed({ feed, items }) {
         {items.map((item) => (
           <a
             key={item.link}
-            className="block p-4 border border-gray-200 hover:border-gray-500 rounded-lg"
+            className="block p-4 border border-gray-300 hover:border-pink-500 rounded-lg"
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
