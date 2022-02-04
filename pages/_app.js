@@ -4,11 +4,10 @@ import "styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <nav className="p-6 flex justify-between items-center">
-        <a href="/">
-        <img alt="whatsapps" src="/favicon.png" width="150" height="70"
-         </img>
-        </a>
+      <nav 
+           <Link href="/">
+          <a className="font-bold">WhatsApps?</a>
+          </Link>
         <div className="flex space-x-4">
           <a
             href="https://github.com/andreaskeller/rss-reader"
