@@ -4,7 +4,7 @@ import "styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <nav 
+      <nav className="p-6 flex justify-between items-center">
         <Link href="/">
           <a className="font-bold">WhatsApps?</a>
         </Link>
