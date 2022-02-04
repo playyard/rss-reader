@@ -5,9 +5,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav 
-           <Link href="/">
+        <Link href="/">
           <a className="font-bold">WhatsApps?</a>
-          </Link>
+        </Link>
         <div className="flex space-x-4">
           <a
             href="https://github.com/andreaskeller/rss-reader"
