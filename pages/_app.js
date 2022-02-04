@@ -6,7 +6,8 @@ function MyApp({ Component, pageProps }) {
     <div>
       <nav className="p-6 flex justify-between items-center">
         <a href="/">
-        <img alt="whatsapps" src="/favicon.png" width="150" height="70">
+        <img alt="whatsapps" src="/favicon.png" width="150" height="70"
+         </img>
         </a>
         <div className="flex space-x-4">
           <a
