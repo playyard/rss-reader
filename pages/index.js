@@ -6,7 +6,7 @@ export default function Home() {
 
         <div className="px-0 py-12 max-w-xl mx-auto">
             <div class="pb-8 h-36 w-36 mx-auto">
-                <img src="/logo2.png" alt="image"></img>
+                <img className="inline" src="/logo2.png" alt="image"></img>
             </div>
             <div className="mx-auto pt-4 pl-36">
             <h1 className="font-bold text-5xl mb-5">WhatsApps?</h1>
