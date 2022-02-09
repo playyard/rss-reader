@@ -19,7 +19,7 @@ export default function Feed({ feed, items }) {
                         rel="noopener noreferrer"
                     >
                         <div className="font-bold">{item.title}</div>
-                        <div className="font-bold">{format(new Date(item.isoDate), "PPP")} { format(new Date(item.isoDate), "PPP") === format(date1, "PPP") && '🔥'}</div>
+                        <div className="font">{format(new Date(item.isoDate), "PPP")} { format(new Date(item.isoDate), "PPP") === format(date1, "PPP") && '🔥'}</div>
                         <script type="text/javascript">{
                                 function tutu() {
                                 var newinfo;
