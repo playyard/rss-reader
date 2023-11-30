@@ -9,7 +9,7 @@ export default function Home() {
                 <img src="logo.png" alt="image"></img>
             </div>
             <div className="mx-auto pt-4 pl-36">
-            <h1 className="font-bold text-5xl mb-5">WhatsApps?</h1>
+            <h1 className="font-bold text-5xl mb-5">AdsCore</h1>
             </div>
       <div className="grid grid-cols-2 gap-4">
         {FEEDS.map((feed) => (
